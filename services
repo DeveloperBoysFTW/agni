@@ -1,0 +1,25 @@
+user-serivce
+  // create user
+  // update profile => photo , name,  
+  // delete profile 
+  //ENTITIES : User class , Status enum
+  
+
+ chat-service 
+    // create chat => group,private
+    // send meesage 
+    // get message
+    //ENTITIES : Chat superClass , ChatType enum , Message class
+
+ group-chat-service
+    // create group chat 
+    // update grp details
+    // add/remove members ( admin )
+    // create/remove admin
+    // get/send messages
+    // ENTITIES : User class , Chat superClass , ChatType enum , Message class , GroupChat class
+
+ private-chat-service
+    // create private chat 
+    // get/send messages
+    // ENTITIES : User class , Chat superClass , ChatType enum , Message class , PrivateChat class , Pair<User>
